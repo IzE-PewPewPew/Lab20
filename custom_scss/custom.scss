@@ -1,0 +1,73 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+$primary-color: #3b5a7c;
+$secondary-color: #d998ff;
+$background-color: #f8f9fa;
+$text-color: #b35000;
+$font-family: sans-serif;
+
+body {
+  font-family: $font-family;
+  background-color: $background-color;
+  color: $text-color;
+  margin: 0;
+  padding: 0;
+}
+
+.header-custom {
+  text-align: center;
+  padding: 1rem;
+  background-color: $primary-color;
+  color: white;
+
+  .text-primary {
+    font-size: 1.5rem;
+  }
+
+  .subtitle-custom {
+    font-size: 1rem;
+    color: $secondary-color;
+  }
+}
+
+.btn-main {
+  background-color: $primary-color;
+  color: white;
+  border: 1px solid $primary-color;
+  padding: 0.5rem 1rem;
+}
+
+.btn-alt {
+  background-color: $secondary-color;
+  color: white;
+  border: 1px solid $secondary-color;
+  padding: 0.5rem 1rem;
+
+}
+
+.navigation-bar {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+
+  .nav-link-custom {
+    color: $text-color;
+    text-decoration: none;
+    margin: 0 1rem;
+
+  }
+}
+
+.grid-container {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+
+  .grid-item {
+    flex: 1;
+    padding: 1rem;
+    background-color: $secondary-color;
+    color: white;
+    text-align: center;
+  }
+}
